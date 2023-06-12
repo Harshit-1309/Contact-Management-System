@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+.mail2 {
+    display: flex;
+    margin-top: 25px;
+    margin-inline: 380px;
+    padding: 2px;
+    width: 250px;
+    height: 20px;
+    align-items: center;
+    align-content:center ;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    background-color: white;
+}   
+
+.pass2 {
+    display: flex;
+    margin: 10px 380px;
+    padding: 2px;
+    width: 250px;
+    height: 20px;
+    align-items: center;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#btn2 {
+    margin: 7px 450px;
+    padding: 2px 2px;
+    width: 130px;
+    height: 30px;
+    background-color: yellow;
+    border: 2px solid green;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    display: block;
+    margin: 90px 340px;
+    padding: 2px 2px;
+    width: 600px;
+    height: 30px;
+}
+
+.main2 {
+    border: 10px solid white;
+    margin: 10% 15%;
+    padding: 2px 2px;
+    width: 1000px;
+    height: 500px;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    margin: 40px 390px;
+    padding: 5px;
+    width: 220px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    /* background-color: blue; */
+}
+
+#btn2:hover {
+    color: red;
+    border: 2px solid red;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    .main2 {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* border: none; */
+    }
+
+    h1 {
+        color: white;
+        display: block;
+        width: 600px;
+        height: 30px;
+    }
+
+  }
+  

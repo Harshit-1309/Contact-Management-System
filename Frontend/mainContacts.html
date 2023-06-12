@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contacts</title>
+    <link rel="stylesheet" href="mainContacts.css" />
+    <link rel="stylesheet" href="../icofont/icofont.min.css" />
+    <link rel="stylesheet" type="text/css" href="addModal.css" />
+    <link rel="stylesheet" type="text/css" href="editModal.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      const module = {};
+    </script>
+    <script type="module">
+      import { delContact } from "./deleteControl.js";
+      module.delContact = delContact;
+    </script>
+    <script type="module">
+      import { editContact } from "./editControl.js";
+      module.editContact = editContact;
+    </script>
+    <script type="module">
+      import { addContact } from "./addControl.js";
+      module.addContact = addContact;
+    </script>
+    <i class="icofont-ui-add" onclick=" "></i>
+    <input id="openModalBtn" type="button" value="Add New Contact" />
+
+    <div id="divData" class="wak"></div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Add Your Contact</h2>
+        <form action="" id="myForm">
+          <input type="text" id="AddName" placeholder="Enter Contact Name" />
+          <br />
+          <input type="email" id="AddMail" placeholder="Enter Contact Email" />
+          <br />
+          <input type="text" id="AddPhone" placeholder="Enter Contact Number" />
+          <br />
+          <input
+            type="button"
+            id="AddBtn"
+            value="Add Contact"
+            onclick="module.addContact()"
+          />
+        </form>
+      </div>
+    </div>
+    <div id="myEditModal" class="editModal">
+      <div class="editModal-content">
+        <span class="editClose">&times;</span>
+        <h2>Edit Your Contact</h2>
+        <form action="" id="myEditForm">
+          <input type="text" id="EditName" placeholder="Enter Contact Name" />
+          <br />
+          <input type="email" id="EditMail" placeholder="Enter Contact Email" />
+          <br />
+          <input
+            type="text"
+            id="EditPhone"
+            placeholder="Enter Contact Number"
+          />
+          <br />
+          <input
+            type="button"
+            id="EditBtn"
+            value="Save Contact"
+            onclick="module.editContact()"
+          />
+        </form>
+      </div>
+    </div>
+
+    <script src="addModalControl.js"></script>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: black;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  height: 50%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: yellow;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  padding-block: 2px;
+  margin-inline: 235px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+#AddName,
+#AddMail,
+#AddPhone {
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  width: 250px;
+  height: 20px;
+  border-radius: 7px;
+}
+#AddBtn {
+  display: block;
+  margin: 0 auto;
+  padding: 2px 2px;
+  width: 130px;
+  height: 30px;
+  background-color: yellow;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#AddBtn:hover {
+  color: red;
+  border: 2px solid red;
+  background-color: black;
+}
+
+#openModalBtn {
+  margin-inline: 340px;
+  margin-top: -2px;
+  margin-bottom: -10px;
+  padding: 2px 2px;
+  width: 180px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#openModalBtn:hover {
+  color: yellow;
+  border: 2px solid yellow;
+  background-color: black;
+}

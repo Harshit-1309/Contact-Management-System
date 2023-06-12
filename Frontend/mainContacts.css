@@ -1,0 +1,127 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+h3 {
+  color: white;
+  display: flex;
+  margin: 20px 20px;
+  /* padding: 5px;
+  width: 220px; */
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid yellow;
+  border-radius: 3px;
+}
+
+#edit {
+  color: white;
+  background-color: black;
+  /* border: 2px solid red; */
+  border-radius: 30px;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  margin-block: 20px;
+  margin-inline: 7px;
+  padding-inline: 8px;
+  padding-block: 2px;
+}
+
+#del {
+  /* content: ec53; */
+  color: white;
+  background-color: black;
+  /* border: 2px solid red; */
+  border-radius: 30px;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  margin-block: 20px;
+  margin-inline: 7px;
+  padding-inline: 8px;
+  padding-block: 2px;
+}
+
+#add {
+  color: white;
+  background-color: black;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+  width: 150px;
+  margin-top: -14px;
+  margin-inline: 330px;
+  padding-inline: 2px;
+  padding-block: 2px;
+  display: inline;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+#edit:hover {
+  color: green;
+  border: 2px solid green;
+  background-color: black;
+}
+#add:hover {
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+}
+#del:hover {
+  color: red;
+  border: 2px solid red;
+  background-color: black;
+}
+
+.wak {
+  color: white;
+  border: 5px solid rgb(107, 133, 226);
+  padding: 40px;
+  border-radius: 20px;
+  margin-inline: 300px;
+  margin-block-start: 100px;
+  /* display: flex; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.line {
+  border-color: rgb(107, 133, 226);
+}
+
+.icofont-ui-add {
+  height: 0px;
+  margin-top: 70px;
+  margin-inline: 310px;
+  display: flex;
+}
+.icofont-ui-edit:hover {
+ 
+  cursor: pointer;
+}
+.icofont-ui-delete:hover {
+ cursor: pointer;
+}
+.icofont-ui-delete {
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  padding: 4px;
+}
+.icofont-ui-edit {
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  padding: 4px;
+}
+
+@media (max-width: 600px) {
+  
+}
+

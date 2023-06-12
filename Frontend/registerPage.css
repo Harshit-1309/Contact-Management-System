@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+}
+.user {
+  display: flex;
+  margin-top: 80px;
+  margin-inline: 380px;
+  margin-bottom: 7px;
+  padding: 2px;
+  width: 250px;
+  height: 20px;
+  align-items: center;
+  color: black;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  background-color: white;
+}
+.mail {
+  display: flex;
+  margin: 10px 380px;
+  padding: 2px;
+  width: 250px;
+  height: 20px;
+  align-items: center;
+  align-content: center;
+  color: black;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  background-color: white;
+}
+.pass {
+  display: flex;
+  margin: 10px 380px;
+  padding: 2px;
+  width: 250px;
+  height: 20px;
+  align-items: center;
+  color: black;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  background-color: white;
+}
+
+#btn {
+  margin: 6px 450px;
+  padding: 2px 2px;
+  width: 130px;
+  height: 30px;
+  background-color: yellow;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  display: block;
+  margin: 90px 340px;
+  padding: 2px 2px;
+  width: 600px;
+  height: 30px;
+}
+
+.ask {
+  color: white;
+  display: flex;
+  margin: 15px 420px;
+  padding: 2px;
+  width: 250px;
+  height: 20px;
+  align-items: center;
+}
+.main {
+  border: 10px solid white;
+  margin: 10% 15%;
+  padding: 2px 2px;
+  width: 1000px;
+  height: 500px;
+}
+h3 {
+  color: white;
+  display: flex;
+  margin: -50px 390px;
+  padding: 5px;
+  width: 220px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 30px;
+  /* background-color: rgb(95, 145, 214); */
+}
+
+#btn:hover {
+  color: red;
+  border: 2px solid red;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
